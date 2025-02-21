@@ -1,4 +1,4 @@
-# tpfinalpaul# Gestion de Collection de Jeux Vidéo
+# tpfinalpaul
 
 ## Description du projet
 
@@ -18,8 +18,8 @@ Cette application Windows Forms permet de gérer une collection de jeux vidéo. 
 - **Validation des champs** :
   - L'année et le prix ne peuvent contenir que des chiffres
   - Message d'erreur si une valeur incorrecte est saisie
-- **Connexion à une base de données locale** `.mdf` avec ADO.NET
-- \*\*Aucune utilisation de `ni` dans \*\*\`\`
+- **Connexion à une base de données locale** `.mdf` 
+
 
 ## Aperçu
 
@@ -68,14 +68,13 @@ La connexion à la base de données est définie comme suit dans le projet :
 string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\vissualstudioprojet\\tpfinalpaul\\tpfinalpaul\\jeuxdb.mdf;Integrated Security=True";
 ```
 
-Assurez-vous que le fichier `.mdf` est bien attaché dans SQL Server LocalDB.
+Assurez-vous que le fichier `.mdf` est bien attaché dans SQL Server LocalDB
 
 
 
 ## Auteur
 
 Paul FA
-
 
 
 
